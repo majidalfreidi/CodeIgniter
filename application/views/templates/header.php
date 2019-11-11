@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- My CSS -->
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css"> 
+
     <title><?= $judul; ?></title>
   </head>
   <body>
@@ -25,6 +28,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?= base_url(); ?>mahasiswa">Mahasiswa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?= base_url(); ?>peoples">Peoples</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?= base_url(); ?>about">About</a>
